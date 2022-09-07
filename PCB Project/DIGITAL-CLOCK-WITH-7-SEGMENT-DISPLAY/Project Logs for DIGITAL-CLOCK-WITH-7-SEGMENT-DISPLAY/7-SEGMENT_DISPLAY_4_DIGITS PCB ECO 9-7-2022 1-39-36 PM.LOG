@@ -1,0 +1,193 @@
+Added Component: Designator=D1(7-SEGMENT DISPLAY)
+Added Component: Designator=D2(7-SEGMENT DISPLAY)
+Added Component: Designator=D3(7-SEGMENT DISPLAY)
+Added Component: Designator=D4(7-SEGMENT DISPLAY)
+Added Component: Designator=H1(HEADER CLOCK 8)
+Added Component: Designator=H2(HEADER CLOCK)
+Added Component: Designator=Q1(QTO-92)
+Added Component: Designator=Q2(QTO-92)
+Added Component: Designator=Q3(QTO-92)
+Added Component: Designator=Q4(QTO-92)
+Added Component: Designator=Q5(QTO-92)
+Added Component: Designator=Q6(QTO-92)
+Added Component: Designator=Q7(QTO-92)
+Added Component: Designator=Q8(QTO-92)
+Added Component: Designator=R1(RES 1/2W)
+Add component (AddParameter): Name = "Value"; Value = "6K8"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RES 1/2W)
+Add component (AddParameter): Name = "Value"; Value = "150"; VariantName = "[No Variations]"
+Added Component: Designator=R3(RES 1/2W)
+Add component (AddParameter): Name = "Value"; Value = "150"; VariantName = "[No Variations]"
+Added Component: Designator=R4(RES 1/2W)
+Add component (AddParameter): Name = "Value"; Value = "150"; VariantName = "[No Variations]"
+Added Component: Designator=R5(RES 1/2W)
+Add component (AddParameter): Name = "Value"; Value = "150"; VariantName = "[No Variations]"
+Added Component: Designator=R6(RES 1/2W)
+Add component (AddParameter): Name = "Value"; Value = "150"; VariantName = "[No Variations]"
+Added Component: Designator=R7(RES 1/2W)
+Add component (AddParameter): Name = "Value"; Value = "150"; VariantName = "[No Variations]"
+Added Component: Designator=R8(RES 1/2W)
+Add component (AddParameter): Name = "Value"; Value = "150"; VariantName = "[No Variations]"
+Added Component: Designator=R9(RES 1/2W)
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R10(RES 1/2W)
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R11(RES 1/2W)
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R12(RES 1/2W)
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R13(RES 1/2W)
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R14(RES 1/2W)
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R15(RES 1/2W)
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R16(RES 1/2W)
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=R1-2
+Added Pin To Net: NetName=+5 Pin=R2-2
+Added Pin To Net: NetName=+5 Pin=R3-2
+Added Pin To Net: NetName=+5 Pin=R4-2
+Added Pin To Net: NetName=+5 Pin=R5-2
+Added Pin To Net: NetName=+5 Pin=R6-2
+Added Pin To Net: NetName=+5 Pin=R7-2
+Added Pin To Net: NetName=+5 Pin=R8-2
+Added Net: Name=+5
+Added Pin To Net: NetName=DIGIT1 Pin=D4-1
+Added Pin To Net: NetName=DIGIT1 Pin=D4-5
+Added Pin To Net: NetName=DIGIT1 Pin=H2-1
+Added Net: Name=DIGIT1
+Added Pin To Net: NetName=DIGIT2 Pin=D3-1
+Added Pin To Net: NetName=DIGIT2 Pin=D3-5
+Added Pin To Net: NetName=DIGIT2 Pin=H2-2
+Added Net: Name=DIGIT2
+Added Pin To Net: NetName=DIGIT3 Pin=D2-1
+Added Pin To Net: NetName=DIGIT3 Pin=D2-5
+Added Pin To Net: NetName=DIGIT3 Pin=H2-3
+Added Net: Name=DIGIT3
+Added Pin To Net: NetName=DIGIT4 Pin=D1-1
+Added Pin To Net: NetName=DIGIT4 Pin=D1-5
+Added Pin To Net: NetName=DIGIT4 Pin=H2-4
+Added Net: Name=DIGIT4
+Added Pin To Net: NetName=DP Pin=Q1-3
+Added Pin To Net: NetName=DP Pin=R16-1
+Added Net: Name=DP
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=D2-2
+Added Pin To Net: NetName=NetD1_2 Pin=D3-2
+Added Pin To Net: NetName=NetD1_2 Pin=D4-2
+Added Pin To Net: NetName=NetD1_2 Pin=Q4-1
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetD1_3 Pin=D1-3
+Added Pin To Net: NetName=NetD1_3 Pin=D2-3
+Added Pin To Net: NetName=NetD1_3 Pin=D3-3
+Added Pin To Net: NetName=NetD1_3 Pin=D4-3
+Added Pin To Net: NetName=NetD1_3 Pin=Q5-1
+Added Net: Name=NetD1_3
+Added Pin To Net: NetName=NetD1_4 Pin=D1-4
+Added Pin To Net: NetName=NetD1_4 Pin=D2-4
+Added Pin To Net: NetName=NetD1_4 Pin=D3-4
+Added Pin To Net: NetName=NetD1_4 Pin=D4-4
+Added Pin To Net: NetName=NetD1_4 Pin=Q6-1
+Added Net: Name=NetD1_4
+Added Pin To Net: NetName=NetD1_6 Pin=D1-6
+Added Pin To Net: NetName=NetD1_6 Pin=D2-6
+Added Pin To Net: NetName=NetD1_6 Pin=D3-6
+Added Pin To Net: NetName=NetD1_6 Pin=D4-6
+Added Pin To Net: NetName=NetD1_6 Pin=Q7-1
+Added Net: Name=NetD1_6
+Added Pin To Net: NetName=NetD1_7 Pin=D1-7
+Added Pin To Net: NetName=NetD1_7 Pin=D2-7
+Added Pin To Net: NetName=NetD1_7 Pin=D3-7
+Added Pin To Net: NetName=NetD1_7 Pin=D4-7
+Added Pin To Net: NetName=NetD1_7 Pin=Q8-1
+Added Net: Name=NetD1_7
+Added Pin To Net: NetName=NetD1_8 Pin=D1-8
+Added Pin To Net: NetName=NetD1_8 Pin=D2-8
+Added Pin To Net: NetName=NetD1_8 Pin=D3-8
+Added Pin To Net: NetName=NetD1_8 Pin=D4-8
+Added Pin To Net: NetName=NetD1_8 Pin=Q1-1
+Added Net: Name=NetD1_8
+Added Pin To Net: NetName=NetD1_9 Pin=D1-9
+Added Pin To Net: NetName=NetD1_9 Pin=D2-9
+Added Pin To Net: NetName=NetD1_9 Pin=D3-9
+Added Pin To Net: NetName=NetD1_9 Pin=D4-9
+Added Pin To Net: NetName=NetD1_9 Pin=Q3-1
+Added Net: Name=NetD1_9
+Added Pin To Net: NetName=NetD1_10 Pin=D1-10
+Added Pin To Net: NetName=NetD1_10 Pin=D2-10
+Added Pin To Net: NetName=NetD1_10 Pin=D3-10
+Added Pin To Net: NetName=NetD1_10 Pin=D4-10
+Added Pin To Net: NetName=NetD1_10 Pin=Q2-1
+Added Net: Name=NetD1_10
+Added Pin To Net: NetName=NetH1_1 Pin=H1-1
+Added Pin To Net: NetName=NetH1_1 Pin=R9-2
+Added Net: Name=NetH1_1
+Added Pin To Net: NetName=NetH1_2 Pin=H1-2
+Added Pin To Net: NetName=NetH1_2 Pin=R10-2
+Added Net: Name=NetH1_2
+Added Pin To Net: NetName=NetH1_3 Pin=H1-3
+Added Pin To Net: NetName=NetH1_3 Pin=R11-2
+Added Net: Name=NetH1_3
+Added Pin To Net: NetName=NetH1_4 Pin=H1-4
+Added Pin To Net: NetName=NetH1_4 Pin=R12-2
+Added Net: Name=NetH1_4
+Added Pin To Net: NetName=NetH1_5 Pin=H1-5
+Added Pin To Net: NetName=NetH1_5 Pin=R13-2
+Added Net: Name=NetH1_5
+Added Pin To Net: NetName=NetH1_6 Pin=H1-6
+Added Pin To Net: NetName=NetH1_6 Pin=R14-2
+Added Net: Name=NetH1_6
+Added Pin To Net: NetName=NetH1_7 Pin=H1-7
+Added Pin To Net: NetName=NetH1_7 Pin=R15-2
+Added Net: Name=NetH1_7
+Added Pin To Net: NetName=NetH1_8 Pin=H1-8
+Added Pin To Net: NetName=NetH1_8 Pin=R16-2
+Added Net: Name=NetH1_8
+Added Pin To Net: NetName=NetQ1_2 Pin=Q1-2
+Added Pin To Net: NetName=NetQ1_2 Pin=R1-1
+Added Net: Name=NetQ1_2
+Added Pin To Net: NetName=NetQ2_2 Pin=Q2-2
+Added Pin To Net: NetName=NetQ2_2 Pin=R2-1
+Added Net: Name=NetQ2_2
+Added Pin To Net: NetName=NetQ3_2 Pin=Q3-2
+Added Pin To Net: NetName=NetQ3_2 Pin=R3-1
+Added Net: Name=NetQ3_2
+Added Pin To Net: NetName=NetQ4_2 Pin=Q4-2
+Added Pin To Net: NetName=NetQ4_2 Pin=R4-1
+Added Net: Name=NetQ4_2
+Added Pin To Net: NetName=NetQ5_2 Pin=Q5-2
+Added Pin To Net: NetName=NetQ5_2 Pin=R5-1
+Added Net: Name=NetQ5_2
+Added Pin To Net: NetName=NetQ6_2 Pin=Q6-2
+Added Pin To Net: NetName=NetQ6_2 Pin=R6-1
+Added Net: Name=NetQ6_2
+Added Pin To Net: NetName=NetQ7_2 Pin=Q7-2
+Added Pin To Net: NetName=NetQ7_2 Pin=R7-1
+Added Net: Name=NetQ7_2
+Added Pin To Net: NetName=NetQ8_2 Pin=Q8-2
+Added Pin To Net: NetName=NetQ8_2 Pin=R8-1
+Added Net: Name=NetQ8_2
+Added Pin To Net: NetName=SA Pin=Q8-3
+Added Pin To Net: NetName=SA Pin=R9-1
+Added Net: Name=SA
+Added Pin To Net: NetName=SB Pin=Q7-3
+Added Pin To Net: NetName=SB Pin=R10-1
+Added Net: Name=SB
+Added Pin To Net: NetName=SC Pin=Q6-3
+Added Pin To Net: NetName=SC Pin=R11-1
+Added Net: Name=SC
+Added Pin To Net: NetName=SD Pin=Q5-3
+Added Pin To Net: NetName=SD Pin=R12-1
+Added Net: Name=SD
+Added Pin To Net: NetName=SE Pin=Q4-3
+Added Pin To Net: NetName=SE Pin=R13-1
+Added Net: Name=SE
+Added Pin To Net: NetName=SF Pin=Q3-3
+Added Pin To Net: NetName=SF Pin=R14-1
+Added Net: Name=SF
+Added Pin To Net: NetName=SG Pin=Q2-3
+Added Pin To Net: NetName=SG Pin=R15-1
+Added Net: Name=SG
+Added Class: Name=7-SEGMENT_DISPLAY_4_DIGITS
+Added Room: Name=7-SEGMENT_DISPLAY_4_DIGITS
