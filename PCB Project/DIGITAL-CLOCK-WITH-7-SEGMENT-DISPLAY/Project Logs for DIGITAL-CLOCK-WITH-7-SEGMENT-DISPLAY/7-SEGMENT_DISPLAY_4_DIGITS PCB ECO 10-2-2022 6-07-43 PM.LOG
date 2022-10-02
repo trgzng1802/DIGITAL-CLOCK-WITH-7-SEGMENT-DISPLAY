@@ -1,0 +1,28 @@
+Change Component Footprint: Designator=R1 Old Footprint=RES-SM-0603 New Footprint=RES-SM-0805
+Change Component Footprint: Designator=R2 Old Footprint=RES-SM-0603 New Footprint=RES-SM-0805
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component D3 7-SEGMENT DISPLAY
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component D4 7-SEGMENT DISPLAY
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component D5 7-SEGMENT DISPLAY
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component D6 7-SEGMENT DISPLAY
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R1 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R2 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R3 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R4 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R6 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R8 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R10 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R12 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R14 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R16 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R18 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R20 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R22 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R24 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R26 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R28 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R29 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R30 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R32 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R34 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R36 RESISTOR SMD
+Added Member To Class: ClassName=7-SEGMENT_DISPLAY_4_DIGITS Member=Component R37 RESISTOR SMD
