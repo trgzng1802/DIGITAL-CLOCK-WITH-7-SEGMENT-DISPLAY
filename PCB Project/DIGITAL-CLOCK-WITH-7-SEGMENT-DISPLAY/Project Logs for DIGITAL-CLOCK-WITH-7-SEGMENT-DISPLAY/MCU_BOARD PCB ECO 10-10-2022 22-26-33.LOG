@@ -1,0 +1,145 @@
+Change Component Footprint: Designator=C2 Old Footprint=CN1 New Footprint=CAP-SM-0805
+Change Component Footprint: Designator=C3 Old Footprint=CN1 New Footprint=CAP-SM-0805
+Change Component Footprint: Designator=C4 Old Footprint=CN1 New Footprint=CAP-SM-0805
+Change Component Footprint: Designator=C5 Old Footprint=CN1 New Footprint=CAP-SM-0805
+Change Component Footprint: Designator=C6 Old Footprint=CN1 New Footprint=CAP-SM-0805
+Change Component Comment : Designator=C2 Old Comment=Cap Non-Pol New Comment=Cap Non-Pol SMD
+Change Component Comment : Designator=C3 Old Comment=Cap Non-Pol New Comment=Cap Non-Pol SMD
+Change Component Comment : Designator=C4 Old Comment=Cap Non-Pol New Comment=Cap Non-Pol SMD
+Change Component Comment : Designator=C5 Old Comment=Cap Non-Pol New Comment=Cap Non-Pol SMD
+Change Component Comment : Designator=C6 Old Comment=Cap Non-Pol New Comment=Cap Non-Pol SMD
+Change component parameters: Designator = "C2" ("C2"); Footprint = "CN1"; UniqueID = "\JYAHPGAV" ("\JYAHPGAV")
+Change component parameters (AddParameter): Name = "Value"; Value = "100nF, 16V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C3" ("C3"); Footprint = "CN1"; UniqueID = "\HYHOCSIE" ("\HYHOCSIE")
+Change component parameters (AddParameter): Name = "Value"; Value = "100nF, 16V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C4" ("C4"); Footprint = "CN1"; UniqueID = "\LQCLRTKO" ("\LQCLRTKO")
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7uF, 16V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C5" ("C5"); Footprint = "CN1"; UniqueID = "\AVDFSAKG" ("\AVDFSAKG")
+Change component parameters (AddParameter): Name = "Value"; Value = "10nF, 16V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C6" ("C6"); Footprint = "CN1"; UniqueID = "\MLCNFERY" ("\MLCNFERY")
+Change component parameters (AddParameter): Name = "Value"; Value = "1uF, 16V"; VariantName = "[No Variations]"
+Added Component: Designator=IC1(DIP8/W0.3)
+Add component (AddParameter): Name = "Value"; Value = "LM555"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Add Pin To Net: Unknown Pin: Pin D1-1
+Add Pin To Net: Unknown Pin: Pin D1-2
+Add Pin To Net: Unknown Pin: Pin D2-1
+Add Pin To Net: Unknown Pin: Pin D2-2
+Add Pin To Net: Unknown Pin: Pin D3-1
+Add Pin To Net: Unknown Pin: Pin D3-2
+Add Pin To Net: Unknown Pin: Pin D3-3
+Add Pin To Net: Unknown Pin: Pin D3-4
+Add Pin To Net: Unknown Pin: Pin D3-5
+Add Pin To Net: Unknown Pin: Pin D3-6
+Add Pin To Net: Unknown Pin: Pin D3-7
+Add Pin To Net: Unknown Pin: Pin D3-9
+Add Pin To Net: Unknown Pin: Pin D3-10
+Add Pin To Net: Unknown Pin: Pin D4-1
+Add Pin To Net: Unknown Pin: Pin D4-2
+Add Pin To Net: Unknown Pin: Pin D4-3
+Add Pin To Net: Unknown Pin: Pin D4-4
+Add Pin To Net: Unknown Pin: Pin D4-5
+Add Pin To Net: Unknown Pin: Pin D4-6
+Add Pin To Net: Unknown Pin: Pin D4-7
+Add Pin To Net: Unknown Pin: Pin D4-9
+Add Pin To Net: Unknown Pin: Pin D4-10
+Add Pin To Net: Unknown Pin: Pin D5-1
+Add Pin To Net: Unknown Pin: Pin D5-2
+Add Pin To Net: Unknown Pin: Pin D5-3
+Add Pin To Net: Unknown Pin: Pin D5-4
+Add Pin To Net: Unknown Pin: Pin D5-5
+Add Pin To Net: Unknown Pin: Pin D5-6
+Add Pin To Net: Unknown Pin: Pin D5-7
+Add Pin To Net: Unknown Pin: Pin D5-9
+Add Pin To Net: Unknown Pin: Pin D5-10
+Add Pin To Net: Unknown Pin: Pin D6-1
+Add Pin To Net: Unknown Pin: Pin D6-2
+Add Pin To Net: Unknown Pin: Pin D6-3
+Add Pin To Net: Unknown Pin: Pin D6-4
+Add Pin To Net: Unknown Pin: Pin D6-5
+Add Pin To Net: Unknown Pin: Pin D6-6
+Add Pin To Net: Unknown Pin: Pin D6-7
+Add Pin To Net: Unknown Pin: Pin D6-9
+Add Pin To Net: Unknown Pin: Pin D6-10
+Add Pin To Net: Unknown Pin: Pin D7-A
+Add Pin To Net: Unknown Pin: Pin D7-K
+Added Pin To Net: NetName=GND Pin=IC1-1
+Added Pin To Net: NetName=NetC1_1 Pin=IC1-2
+Added Pin To Net: NetName=NetIC1_3 Pin=IC1-3
+Added Pin To Net: NetName=+5 Pin=IC1-4
+Added Pin To Net: NetName=NetC1_1 Pin=IC1-6
+Added Pin To Net: NetName=NetIC1_7 Pin=IC1-7
+Added Pin To Net: NetName=+5 Pin=IC1-8
+Add Pin To Net: Unknown Pin: Pin JDC1-1
+Add Pin To Net: Unknown Pin: Pin JDC1-2
+Add Pin To Net: Unknown Pin: Pin P1-1
+Add Pin To Net: Unknown Pin: Pin P1-2
+Add Pin To Net: Unknown Pin: Pin P1-3
+Add Pin To Net: Unknown Pin: Pin P1-4
+Add Pin To Net: Unknown Pin: Pin P1-5
+Add Pin To Net: Unknown Pin: Pin P1-6
+Add Pin To Net: Unknown Pin: Pin P1-7
+Add Pin To Net: Unknown Pin: Pin P1-8
+Add Pin To Net: Unknown Pin: Pin P2-1
+Add Pin To Net: Unknown Pin: Pin P2-2
+Add Pin To Net: Unknown Pin: Pin U1-1
+Add Pin To Net: Unknown Pin: Pin U1-2
+Add Pin To Net: Unknown Pin: Pin U1-4
+Add Pin To Net: Unknown Pin: Pin U1-6
+Add Pin To Net: Unknown Pin: Pin U1-7
+Add Pin To Net: Unknown Pin: Pin U1-8
+Add Pin To Net: Unknown Pin: Pin U1-9
+Add Pin To Net: Unknown Pin: Pin U1-10
+Add Pin To Net: Unknown Pin: Pin U1-11
+Add Pin To Net: Unknown Pin: Pin U1-12
+Add Pin To Net: Unknown Pin: Pin U1-13
+Add Pin To Net: Unknown Pin: Pin U1-14
+Add Pin To Net: Unknown Pin: Pin U1-15
+Add Pin To Net: Unknown Pin: Pin U1-16
+Add Pin To Net: Unknown Pin: Pin U2-1
+Add Pin To Net: Unknown Pin: Pin U2-2
+Add Pin To Net: Unknown Pin: Pin U2-4
+Add Pin To Net: Unknown Pin: Pin U2-6
+Add Pin To Net: Unknown Pin: Pin U2-7
+Add Pin To Net: Unknown Pin: Pin U2-8
+Add Pin To Net: Unknown Pin: Pin U2-9
+Add Pin To Net: Unknown Pin: Pin U2-10
+Add Pin To Net: Unknown Pin: Pin U2-11
+Add Pin To Net: Unknown Pin: Pin U2-12
+Add Pin To Net: Unknown Pin: Pin U2-13
+Add Pin To Net: Unknown Pin: Pin U2-14
+Add Pin To Net: Unknown Pin: Pin U2-15
+Add Pin To Net: Unknown Pin: Pin U2-16
+Add Pin To Net: Unknown Pin: Pin U3-1
+Add Pin To Net: Unknown Pin: Pin U3-2
+Add Pin To Net: Unknown Pin: Pin U3-4
+Add Pin To Net: Unknown Pin: Pin U3-6
+Add Pin To Net: Unknown Pin: Pin U3-7
+Add Pin To Net: Unknown Pin: Pin U3-8
+Add Pin To Net: Unknown Pin: Pin U3-9
+Add Pin To Net: Unknown Pin: Pin U3-10
+Add Pin To Net: Unknown Pin: Pin U3-11
+Add Pin To Net: Unknown Pin: Pin U3-12
+Add Pin To Net: Unknown Pin: Pin U3-13
+Add Pin To Net: Unknown Pin: Pin U3-14
+Add Pin To Net: Unknown Pin: Pin U3-15
+Add Pin To Net: Unknown Pin: Pin U3-16
+Add Pin To Net: Unknown Pin: Pin U4-1
+Add Pin To Net: Unknown Pin: Pin U4-2
+Add Pin To Net: Unknown Pin: Pin U4-4
+Add Pin To Net: Unknown Pin: Pin U4-6
+Add Pin To Net: Unknown Pin: Pin U4-7
+Add Pin To Net: Unknown Pin: Pin U4-8
+Add Pin To Net: Unknown Pin: Pin U4-9
+Add Pin To Net: Unknown Pin: Pin U4-10
+Add Pin To Net: Unknown Pin: Pin U4-11
+Add Pin To Net: Unknown Pin: Pin U4-12
+Add Pin To Net: Unknown Pin: Pin U4-13
+Add Pin To Net: Unknown Pin: Pin U4-14
+Add Pin To Net: Unknown Pin: Pin U4-15
+Add Pin To Net: Unknown Pin: Pin U4-16
+Add Pin To Net: Unknown Pin: Pin U5-1
+Add Pin To Net: Unknown Pin: Pin U5-2
+Add Pin To Net: Unknown Pin: Pin U5-3
+Add Pin To Net: Unknown Pin: Pin U5-4

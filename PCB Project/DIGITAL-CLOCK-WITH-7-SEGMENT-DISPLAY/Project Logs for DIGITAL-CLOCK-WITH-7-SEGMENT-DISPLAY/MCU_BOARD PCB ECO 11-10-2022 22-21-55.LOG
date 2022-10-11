@@ -1,0 +1,297 @@
+Removed Pin From Net: NetName=GND Pin=X1-2
+Removed Pin From Net: NetName=GND Pin=X1-4
+Change Component Designator: OldDesignator=C2 NewDesignator=C5
+Change Component Designator: OldDesignator=C3 NewDesignator=C6
+Change Component Designator: OldDesignator=C4 NewDesignator=C7
+Change Component Designator: OldDesignator=C5 NewDesignator=C8
+Change Component Designator: OldDesignator=C6 NewDesignator=C9
+Change Component Designator: OldDesignator=C7 NewDesignator=C10
+Change Component Designator: OldDesignator=C8 NewDesignator=C11
+Change Component Designator: OldDesignator=C9 NewDesignator=C12
+Change Component Designator: OldDesignator=C11 NewDesignator=C14
+Change Component Designator: OldDesignator=C12 NewDesignator=C15
+Added Component: Designator=C2(CAP-SM-0603)
+Add component (AddParameter): Name = "Value"; Value = "100nF, 16V"; VariantName = "[No Variations]"
+Added Component: Designator=C3(CAP-SM-0603)
+Add component (AddParameter): Name = "Value"; Value = "100nF, 16V"; VariantName = "[No Variations]"
+Added Component: Designator=C4(CAP-SM-0603)
+Add component (AddParameter): Name = "Value"; Value = "4.7uF, 16V"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=+3.3 Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=+3.3 Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=+3.3 Pin=C4-2
+Add Pin To Net: Unknown Pin: Pin C13-1
+Add Pin To Net: Unknown Pin: Pin C13-2
+Add Pin To Net: Unknown Pin: Pin C16-1
+Add Pin To Net: Unknown Pin: Pin C16-2
+Add Pin To Net: Unknown Pin: Pin D1-1
+Add Pin To Net: Unknown Pin: Pin D1-2
+Add Pin To Net: Unknown Pin: Pin D2-1
+Add Pin To Net: Unknown Pin: Pin D2-2
+Add Pin To Net: Unknown Pin: Pin D3-1
+Add Pin To Net: Unknown Pin: Pin D3-2
+Add Pin To Net: Unknown Pin: Pin D3-3
+Add Pin To Net: Unknown Pin: Pin D3-4
+Add Pin To Net: Unknown Pin: Pin D3-5
+Add Pin To Net: Unknown Pin: Pin D3-6
+Add Pin To Net: Unknown Pin: Pin D3-7
+Add Pin To Net: Unknown Pin: Pin D3-9
+Add Pin To Net: Unknown Pin: Pin D3-10
+Add Pin To Net: Unknown Pin: Pin D4-1
+Add Pin To Net: Unknown Pin: Pin D4-2
+Add Pin To Net: Unknown Pin: Pin D4-3
+Add Pin To Net: Unknown Pin: Pin D4-4
+Add Pin To Net: Unknown Pin: Pin D4-5
+Add Pin To Net: Unknown Pin: Pin D4-6
+Add Pin To Net: Unknown Pin: Pin D4-7
+Add Pin To Net: Unknown Pin: Pin D4-9
+Add Pin To Net: Unknown Pin: Pin D4-10
+Add Pin To Net: Unknown Pin: Pin D5-1
+Add Pin To Net: Unknown Pin: Pin D5-2
+Add Pin To Net: Unknown Pin: Pin D5-3
+Add Pin To Net: Unknown Pin: Pin D5-4
+Add Pin To Net: Unknown Pin: Pin D5-5
+Add Pin To Net: Unknown Pin: Pin D5-6
+Add Pin To Net: Unknown Pin: Pin D5-7
+Add Pin To Net: Unknown Pin: Pin D5-9
+Add Pin To Net: Unknown Pin: Pin D5-10
+Add Pin To Net: Unknown Pin: Pin D6-1
+Add Pin To Net: Unknown Pin: Pin D6-2
+Add Pin To Net: Unknown Pin: Pin D6-3
+Add Pin To Net: Unknown Pin: Pin D6-4
+Add Pin To Net: Unknown Pin: Pin D6-5
+Add Pin To Net: Unknown Pin: Pin D6-6
+Add Pin To Net: Unknown Pin: Pin D6-7
+Add Pin To Net: Unknown Pin: Pin D6-9
+Add Pin To Net: Unknown Pin: Pin D6-10
+Add Pin To Net: Unknown Pin: Pin D7-A
+Add Pin To Net: Unknown Pin: Pin D7-K
+Add Pin To Net: Unknown Pin: Pin IC1-1
+Add Pin To Net: Unknown Pin: Pin IC1-2
+Add Pin To Net: Unknown Pin: Pin IC1-3
+Add Pin To Net: Unknown Pin: Pin IC1-4
+Add Pin To Net: Unknown Pin: Pin IC1-6
+Add Pin To Net: Unknown Pin: Pin IC1-7
+Add Pin To Net: Unknown Pin: Pin IC1-8
+Add Pin To Net: Unknown Pin: Pin JDC1-1
+Add Pin To Net: Unknown Pin: Pin JDC1-2
+Add Pin To Net: Unknown Pin: Pin P1-1
+Add Pin To Net: Unknown Pin: Pin P1-2
+Add Pin To Net: Unknown Pin: Pin P1-3
+Add Pin To Net: Unknown Pin: Pin P1-4
+Add Pin To Net: Unknown Pin: Pin P1-5
+Add Pin To Net: Unknown Pin: Pin P1-6
+Add Pin To Net: Unknown Pin: Pin P1-7
+Add Pin To Net: Unknown Pin: Pin P1-8
+Add Pin To Net: Unknown Pin: Pin P2-1
+Add Pin To Net: Unknown Pin: Pin P2-2
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R1-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R3-1
+Add Pin To Net: Unknown Pin: Pin R3-2
+Add Pin To Net: Unknown Pin: Pin R4-1
+Add Pin To Net: Unknown Pin: Pin R4-2
+Add Pin To Net: Unknown Pin: Pin R5-1
+Add Pin To Net: Unknown Pin: Pin R5-2
+Add Pin To Net: Unknown Pin: Pin R6-1
+Add Pin To Net: Unknown Pin: Pin R6-2
+Add Pin To Net: Unknown Pin: Pin R7-1
+Add Pin To Net: Unknown Pin: Pin R7-2
+Add Pin To Net: Unknown Pin: Pin R8-1
+Add Pin To Net: Unknown Pin: Pin R8-2
+Add Pin To Net: Unknown Pin: Pin R9-1
+Add Pin To Net: Unknown Pin: Pin R9-2
+Add Pin To Net: Unknown Pin: Pin R10-1
+Add Pin To Net: Unknown Pin: Pin R10-2
+Add Pin To Net: Unknown Pin: Pin R11-1
+Add Pin To Net: Unknown Pin: Pin R11-2
+Add Pin To Net: Unknown Pin: Pin R12-1
+Add Pin To Net: Unknown Pin: Pin R12-2
+Add Pin To Net: Unknown Pin: Pin R13-1
+Add Pin To Net: Unknown Pin: Pin R13-2
+Add Pin To Net: Unknown Pin: Pin R14-1
+Add Pin To Net: Unknown Pin: Pin R14-2
+Add Pin To Net: Unknown Pin: Pin R15-1
+Add Pin To Net: Unknown Pin: Pin R15-2
+Add Pin To Net: Unknown Pin: Pin R16-1
+Add Pin To Net: Unknown Pin: Pin R16-2
+Add Pin To Net: Unknown Pin: Pin R17-1
+Add Pin To Net: Unknown Pin: Pin R17-2
+Add Pin To Net: Unknown Pin: Pin R18-1
+Add Pin To Net: Unknown Pin: Pin R18-2
+Add Pin To Net: Unknown Pin: Pin R19-1
+Add Pin To Net: Unknown Pin: Pin R19-2
+Add Pin To Net: Unknown Pin: Pin R20-1
+Add Pin To Net: Unknown Pin: Pin R20-2
+Add Pin To Net: Unknown Pin: Pin R21-1
+Add Pin To Net: Unknown Pin: Pin R21-2
+Add Pin To Net: Unknown Pin: Pin R22-1
+Add Pin To Net: Unknown Pin: Pin R22-2
+Add Pin To Net: Unknown Pin: Pin R23-1
+Add Pin To Net: Unknown Pin: Pin R23-2
+Add Pin To Net: Unknown Pin: Pin R24-1
+Add Pin To Net: Unknown Pin: Pin R24-2
+Add Pin To Net: Unknown Pin: Pin R25-1
+Add Pin To Net: Unknown Pin: Pin R25-2
+Add Pin To Net: Unknown Pin: Pin R26-1
+Add Pin To Net: Unknown Pin: Pin R26-2
+Add Pin To Net: Unknown Pin: Pin R27-1
+Add Pin To Net: Unknown Pin: Pin R27-2
+Add Pin To Net: Unknown Pin: Pin R28-1
+Add Pin To Net: Unknown Pin: Pin R28-2
+Add Pin To Net: Unknown Pin: Pin R29-1
+Add Pin To Net: Unknown Pin: Pin R29-2
+Add Pin To Net: Unknown Pin: Pin R30-1
+Add Pin To Net: Unknown Pin: Pin R30-2
+Add Pin To Net: Unknown Pin: Pin R31-1
+Add Pin To Net: Unknown Pin: Pin R31-2
+Add Pin To Net: Unknown Pin: Pin R32-1
+Add Pin To Net: Unknown Pin: Pin R32-2
+Add Pin To Net: Unknown Pin: Pin R33-1
+Add Pin To Net: Unknown Pin: Pin R33-2
+Add Pin To Net: Unknown Pin: Pin R34-1
+Add Pin To Net: Unknown Pin: Pin R34-2
+Add Pin To Net: Unknown Pin: Pin R35-1
+Add Pin To Net: Unknown Pin: Pin R35-2
+Add Pin To Net: Unknown Pin: Pin R36-1
+Add Pin To Net: Unknown Pin: Pin R36-2
+Add Pin To Net: Unknown Pin: Pin R37-1
+Add Pin To Net: Unknown Pin: Pin R37-2
+Add Pin To Net: Unknown Pin: Pin R38-1
+Add Pin To Net: Unknown Pin: Pin R38-2
+Add Pin To Net: Unknown Pin: Pin R39-1
+Add Pin To Net: Unknown Pin: Pin R39-2
+Add Pin To Net: Unknown Pin: Pin U1-1
+Add Pin To Net: Unknown Pin: Pin U1-2
+Add Pin To Net: Unknown Pin: Pin U1-4
+Add Pin To Net: Unknown Pin: Pin U1-6
+Add Pin To Net: Unknown Pin: Pin U1-7
+Add Pin To Net: Unknown Pin: Pin U1-8
+Add Pin To Net: Unknown Pin: Pin U1-9
+Add Pin To Net: Unknown Pin: Pin U1-10
+Add Pin To Net: Unknown Pin: Pin U1-11
+Add Pin To Net: Unknown Pin: Pin U1-12
+Add Pin To Net: Unknown Pin: Pin U1-13
+Add Pin To Net: Unknown Pin: Pin U1-14
+Add Pin To Net: Unknown Pin: Pin U1-15
+Add Pin To Net: Unknown Pin: Pin U1-16
+Add Pin To Net: Unknown Pin: Pin U2-1
+Add Pin To Net: Unknown Pin: Pin U2-2
+Add Pin To Net: Unknown Pin: Pin U2-4
+Add Pin To Net: Unknown Pin: Pin U2-6
+Add Pin To Net: Unknown Pin: Pin U2-7
+Add Pin To Net: Unknown Pin: Pin U2-8
+Add Pin To Net: Unknown Pin: Pin U2-9
+Add Pin To Net: Unknown Pin: Pin U2-10
+Add Pin To Net: Unknown Pin: Pin U2-11
+Add Pin To Net: Unknown Pin: Pin U2-12
+Add Pin To Net: Unknown Pin: Pin U2-13
+Add Pin To Net: Unknown Pin: Pin U2-14
+Add Pin To Net: Unknown Pin: Pin U2-15
+Add Pin To Net: Unknown Pin: Pin U2-16
+Add Pin To Net: Unknown Pin: Pin U3-1
+Add Pin To Net: Unknown Pin: Pin U3-2
+Add Pin To Net: Unknown Pin: Pin U3-4
+Add Pin To Net: Unknown Pin: Pin U3-6
+Add Pin To Net: Unknown Pin: Pin U3-7
+Add Pin To Net: Unknown Pin: Pin U3-8
+Add Pin To Net: Unknown Pin: Pin U3-9
+Add Pin To Net: Unknown Pin: Pin U3-10
+Add Pin To Net: Unknown Pin: Pin U3-11
+Add Pin To Net: Unknown Pin: Pin U3-12
+Add Pin To Net: Unknown Pin: Pin U3-13
+Add Pin To Net: Unknown Pin: Pin U3-14
+Add Pin To Net: Unknown Pin: Pin U3-15
+Add Pin To Net: Unknown Pin: Pin U3-16
+Add Pin To Net: Unknown Pin: Pin U4-1
+Add Pin To Net: Unknown Pin: Pin U4-2
+Add Pin To Net: Unknown Pin: Pin U4-4
+Add Pin To Net: Unknown Pin: Pin U4-6
+Add Pin To Net: Unknown Pin: Pin U4-7
+Add Pin To Net: Unknown Pin: Pin U4-8
+Add Pin To Net: Unknown Pin: Pin U4-9
+Add Pin To Net: Unknown Pin: Pin U4-10
+Add Pin To Net: Unknown Pin: Pin U4-11
+Add Pin To Net: Unknown Pin: Pin U4-12
+Add Pin To Net: Unknown Pin: Pin U4-13
+Add Pin To Net: Unknown Pin: Pin U4-14
+Add Pin To Net: Unknown Pin: Pin U4-15
+Add Pin To Net: Unknown Pin: Pin U4-16
+Add Pin To Net: Unknown Pin: Pin U5-1
+Add Pin To Net: Unknown Pin: Pin U5-2
+Add Pin To Net: Unknown Pin: Pin U5-3
+Add Pin To Net: Unknown Pin: Pin U5-4
+Add Class Member: Failed to add class member : Component C1 Cap Pol
+Added Member To Class: ClassName=CONTROL-PANEL Member=Component C10 Cap Non-Pol SMD
+Added Member To Class: ClassName=CONTROL-PANEL Member=Component C11 Cap Non-Pol SMD
+Add Class Member: Failed to add class member : Component C13 Cap Non-Pol SMD
+Added Member To Class: ClassName=CONTROL-PANEL Member=Component C14 Cap Non-Pol SMD
+Added Member To Class: ClassName=CONTROL-PANEL Member=Component C15 Cap Non-Pol SMD
+Add Class Member: Failed to add class member : Component C16 Cap Non-Pol SMD
+Add Class Member: Failed to add class member : Component D1 LED
+Add Class Member: Failed to add class member : Component D2 LED
+Add Class Member: Failed to add class member : Component D3 7-SEGMENT DISPLAY
+Add Class Member: Failed to add class member : Component D4 7-SEGMENT DISPLAY
+Add Class Member: Failed to add class member : Component D5 7-SEGMENT DISPLAY
+Add Class Member: Failed to add class member : Component D6 7-SEGMENT DISPLAY
+Add Class Member: Failed to add class member : Component D7 D Schottky
+Add Class Member: Failed to add class member : Component H1 Hole
+Add Class Member: Failed to add class member : Component H2 Hole
+Add Class Member: Failed to add class member : Component H3 Hole
+Add Class Member: Failed to add class member : Component H4 Hole
+Add Class Member: Failed to add class member : Component IC1 LM555
+Add Class Member: Failed to add class member : Component JDC1 Jack DC
+Add Class Member: Failed to add class member : Component LOGO1 LOGO PIF
+Add Class Member: Failed to add class member : Component P1 Header 8
+Add Class Member: Failed to add class member : Component P2 Header 2
+Add Class Member: Failed to add class member : Component R1 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R2 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R3 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R4 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R5 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R6 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R7 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R8 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R9 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R10 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R11 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R12 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R13 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R14 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R15 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R16 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R17 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R18 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R19 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R20 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R21 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R22 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R23 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R24 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R25 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R26 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R27 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R28 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R29 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R30 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R31 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R32 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R33 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R34 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R35 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R36 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R37 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R38 RESISTOR SMD
+Add Class Member: Failed to add class member : Component R39 RESISTOR SMD
+Added Member To Class: ClassName=CONTROL-PANEL Member=Component R40 RESISTOR SMD
+Add Class Member: Failed to add class member : Component U1 74LS48
+Add Class Member: Failed to add class member : Component U2 74LS48
+Add Class Member: Failed to add class member : Component U3 74LS48
+Add Class Member: Failed to add class member : Component U4 74LS48
+Add Class Member: Failed to add class member : Component U5 BUCK MINI560
