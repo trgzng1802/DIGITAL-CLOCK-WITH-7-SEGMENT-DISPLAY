@@ -150,6 +150,407 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QFKKDELG
 
+[Document7]
+DocumentPath=MCU_PANEL.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QJDBBOHP
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\NC Drill\MCU_PANEL.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\NC Drill\MCU_PANEL.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\NC Drill\MCU_PANEL.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GG1
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GG1
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GG1
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.GG1
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM11
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM11
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM11
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.GM11
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM14
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM14
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM14
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.GM14
+DItemRevisionGUID=
+
+[GeneratedDocument60]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument61]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument62]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument63]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument64]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument65]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument66]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument67]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument68]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument69]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument70]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument71]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument72]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument73]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument74]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument75]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument76]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument77]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument78]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument79]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument80]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument81]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument82]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument83]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument84]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument85]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument86]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument87]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument88]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\NC Drill\MCU_PANEL.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument89]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.REP
+DItemRevisionGUID=
+
+[GeneratedDocument90]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-39_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument91]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument92]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\Gerber\MCU_PANEL.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument93]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Gerber\MCU_PANEL.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument94]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-40_2022-10-14_GerberfileMCU\NC Drill\MCU_PANEL.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument95]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\17-41_2022-10-14_GerberfileMCU\NC Drill\MCU_PANEL.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument96]
+DocumentPath=Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\NC Drill\MCU_PANEL.TXT
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0

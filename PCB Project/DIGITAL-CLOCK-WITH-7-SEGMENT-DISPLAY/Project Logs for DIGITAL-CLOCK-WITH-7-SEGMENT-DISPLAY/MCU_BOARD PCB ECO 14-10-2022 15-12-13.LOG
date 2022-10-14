@@ -1,0 +1,32 @@
+Change Physical Footprint: Designator=C2 Old Footprint=CAP-SM-0603 New Footprint=CAP-SM-0603
+Change Physical Footprint: Designator=C3 Old Footprint=CAP-SM-0603 New Footprint=CAP-SM-0603
+Change Physical Footprint: Designator=C4 Old Footprint=CAP-SM-0603 New Footprint=CAP-SM-0603
+Change Physical Footprint: Designator=C5 Old Footprint=CAP-SM-0603 New Footprint=CAP-SM-0603
+Change Physical Footprint: Designator=C6 Old Footprint=CAP-SM-0603 New Footprint=CAP-SM-0603
+Change Physical Footprint: Designator=C7 Old Footprint=CAP-SM-0603 New Footprint=CAP-SM-0603
+Change Physical Footprint: Designator=C8 Old Footprint=CAP-SM-0603 New Footprint=CAP-SM-0603
+Change Physical Footprint: Designator=C9 Old Footprint=CAP-SM-0603 New Footprint=CAP-SM-0603
+Change Physical Footprint: Designator=C10 Old Footprint=CAP-SM-0603 New Footprint=CAP-SM-0603
+Change Physical Footprint: Designator=C11 Old Footprint=CAP-SM-0603 New Footprint=CAP-SM-0603
+Change Physical Footprint: Designator=C12 Old Footprint=CAP-SM-0603 New Footprint=CAP-SM-0603
+Change Physical Footprint: Designator=C13 Old Footprint=CAP-SM-0603 New Footprint=CAP-SM-0603
+Change Physical Footprint: Designator=C14 Old Footprint=CAP-SM-0603 New Footprint=CAP-SM-0603
+Change Physical Footprint: Designator=C15 Old Footprint=CAP-SM-0603 New Footprint=CAP-SM-0603
+Change Physical Footprint: Designator=C16 Old Footprint=CAP-SM-0603 New Footprint=CAP-SM-0603
+Change Physical Footprint: Designator=D8 Old Footprint=WL-SMCW_0603_H=0.7mm New Footprint=WL-SMCW_0603_H=0.7mm
+Change Physical Footprint: Designator=D9 Old Footprint=WL-SMCW_0603_H=0.7mm New Footprint=WL-SMCW_0603_H=0.7mm
+Change Physical Footprint: Designator=H5 Old Footprint=LO KHOAN 3MM New Footprint=LO KHOAN 3MM
+Change Physical Footprint: Designator=H6 Old Footprint=LO KHOAN 3MM New Footprint=LO KHOAN 3MM
+Change Physical Footprint: Designator=H7 Old Footprint=LO KHOAN 3MM New Footprint=LO KHOAN 3MM
+Change Physical Footprint: Designator=H8 Old Footprint=LO KHOAN 3MM New Footprint=LO KHOAN 3MM
+Change Physical Footprint: Designator=IC2 Old Footprint=SOT223-4N New Footprint=SOT223-4N
+Change Physical Footprint: Designator=LOGO2 Old Footprint=PIF LOGO BIG SSTOP New Footprint=PIF LOGO BIG SSTOP
+Change Physical Footprint: Designator=P3 Old Footprint=61900411121 New Footprint=61900411121
+Change Physical Footprint: Designator=P4 Old Footprint=62000811622 New Footprint=62000811622
+Change Physical Footprint: Designator=P5 Old Footprint=62000411622 New Footprint=62000411622
+Change Physical Footprint: Designator=P6 Old Footprint=62000211622 New Footprint=62000211622
+Change Physical Footprint: Designator=R40 Old Footprint=RES-SM-0603 New Footprint=RES-SM-0603
+Change Physical Footprint: Designator=R41 Old Footprint=RES-SM-0603 New Footprint=RES-SM-0603
+Change Physical Footprint: Designator=SW1 Old Footprint=WS-TASV_L6W3.8H2.5_4341x10258x6 New Footprint=WS-TASV_L6W3.8H2.5_4341x10258x6
+Change Physical Footprint: Designator=U6 Old Footprint=STM32F030K6T6 New Footprint=STM32F030K6T6
+Change Physical Footprint: Designator=X1 Old Footprint=XTAL 3225 New Footprint=XTAL 3225

@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [MCU_PANEL.PcbDoc]
+   Generated File[MCU_PANEL.TXT]
+   Generated File[MCU_PANEL.LDP]
+   Generated File[MCU_PANEL.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 17:37:02 On 14/10/2022
