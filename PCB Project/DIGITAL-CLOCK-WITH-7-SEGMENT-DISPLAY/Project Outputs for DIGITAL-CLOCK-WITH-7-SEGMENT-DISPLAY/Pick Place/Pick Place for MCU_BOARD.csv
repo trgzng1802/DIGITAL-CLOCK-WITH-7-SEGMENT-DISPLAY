@@ -1,0 +1,45 @@
+Altium Designer Pick and Place Locations
+C:\Data\Projects\DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\PCB Project\DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Project Outputs for DIGITAL-CLOCK-WITH-7-SEGMENT-DISPLAY\Pick Place\Pick Place for MCU_BOARD.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       31/10/22
+Time:       18:04
+Revision:   4e7c263ca18b6a378c390d6ad31fd5aba8622c23
+Variant:    No variations
+Units used: mm
+
+"Designator","Layer","Value"
+"LOGO2","TopLayer",""
+"R42","BottomLayer","1K"
+"R41","BottomLayer","1K"
+"R40","TopLayer","1K"
+"D8","TopLayer",""
+"P5","TopLayer",""
+"C16","TopLayer","1uF, 16V"
+"C15","TopLayer","100nF, 16V"
+"C13","TopLayer","1uF, 16V"
+"C4","TopLayer","4.7uF, 16V"
+"C3","TopLayer","100nF, 16V"
+"C2","TopLayer","100nF, 16V"
+"X1","TopLayer","8MHz"
+"U6","TopLayer",""
+"SW1","TopLayer",""
+"R43","TopLayer","1K"
+"P6","TopLayer",""
+"P4","TopLayer",""
+"P3","TopLayer",""
+"IC2","TopLayer","LM1117"
+"H6","TopLayer",""
+"H5","TopLayer",""
+"D9","TopLayer",""
+"C14","TopLayer","100nF, 16V"
+"C12","TopLayer","100nF, 16V"
+"C11","TopLayer","10pF, 16V"
+"C10","TopLayer","10pF, 16V"
+"C9","TopLayer","1uF, 16V"
+"C8","TopLayer","10nF, 16V"
+"C7","TopLayer","4.7uF, 16V"
+"C6","TopLayer","100nF, 16V"
+"C5","TopLayer","100nF, 16V"

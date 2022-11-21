@@ -1,12 +1,14 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : PCB Document [MCU_PANEL.PcbDoc]
-   Generated File[MCU_PANEL.TXT]
-   Generated File[MCU_PANEL.LDP]
-   Generated File[MCU_PANEL.DRR]
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 18:04:22 On 31/10/2022
+
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [MCU_BOARD.PcbDoc]
+   Generated File[Pick Place for MCU_BOARD.csv]
 
 
-Files Generated   : 3
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 17:37:02 On 14/10/2022
+Finished Output Generation At 18:04:23 On 31/10/2022

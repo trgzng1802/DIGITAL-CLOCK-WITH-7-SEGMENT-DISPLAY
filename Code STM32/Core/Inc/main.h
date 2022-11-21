@@ -65,14 +65,16 @@ void Error_Handler(void);
 #define BIT_A2_GPIO_Port GPIOA
 #define BIT_A3_Pin GPIO_PIN_4
 #define BIT_A3_GPIO_Port GPIOA
-#define DITGIT_1_Pin GPIO_PIN_5
-#define DITGIT_1_GPIO_Port GPIOA
+#define DIGIT_1_Pin GPIO_PIN_5
+#define DIGIT_1_GPIO_Port GPIOA
 #define DIGIT_2_Pin GPIO_PIN_6
 #define DIGIT_2_GPIO_Port GPIOA
 #define DIGIT_3_Pin GPIO_PIN_7
 #define DIGIT_3_GPIO_Port GPIOA
-#define DITGIT_4_Pin GPIO_PIN_0
-#define DITGIT_4_GPIO_Port GPIOB
+#define DIGIT_4_Pin GPIO_PIN_0
+#define DIGIT_4_GPIO_Port GPIOB
+#define LED_LIFE_Pin GPIO_PIN_7
+#define LED_LIFE_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
