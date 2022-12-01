@@ -43,22 +43,33 @@
 I2C_HandleTypeDef hi2c1;
 
 TIM_HandleTypeDef htim3;
+TIM_HandleTypeDef htim14;
 
 /* USER CODE BEGIN PV */
-struct timeData {
+typedef struct {
 	int hour;
 	int minute;
-};
-struct timeData timeNow;
+	int month;
+	int dom;
+	int dow;
+} timeData_t;
 
-struct displayTime {
-	uint8_t hourDigit1;
-	uint8_t hourDigit2;
-	uint8_t minuteDigit1;
-	uint8_t minuteDigit2;
-};
+typedef struct {
+	uint8_t Digit1;
+	uint8_t Digit2;
+	uint8_t Digit3;
+	uint8_t Digit4;
+} digit_t;
 
-struct displayTime timeDigit;
+typedef enum {
+	hour_n_minute,
+	day_of_week,
+	date_n_month,
+} timeComponent_t;
+
+timeComponent_t timeComponent = 0;
+timeData_t timeNow;
+digit_t timeDigit;
 uint32_t sweepTime = 0;
 uint8_t digit = 1;
 uint8_t flag = 1;
@@ -70,6 +81,7 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_I2C1_Init(void);
 static void MX_TIM3_Init(void);
+static void MX_TIM14_Init(void);
 /* USER CODE BEGIN PFP */
 uint8_t decToBcd(int val);
 int bcdToDec(uint8_t val);
@@ -82,8 +94,11 @@ void Display_Time(void);
 /* USER CODE BEGIN 0 */
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
-  UNUSED(htim);
-  flag = 1;
+  if (htim->Instance == htim3.Instance) flag = 1;
+  if (htim->Instance == htim14.Instance){
+	  if (timeComponent == 2) timeComponent = 0;
+	  else timeComponent++;
+  }
 }
 // Convert normal decimal numbers to binary coded decimal
 uint8_t decToBcd(int val)
@@ -113,14 +128,37 @@ void Set_Time (uint8_t sec, uint8_t min, uint8_t hour, uint8_t dow, uint8_t dom,
 //function to get time
 void Get_Time (void)
 {
-	uint8_t get_time[2];
-	HAL_I2C_Mem_Read(&hi2c1, DS3231_ADDRESS, 0x01, 1, get_time, 2, 1000);
+	uint8_t get_time[6];
+	HAL_I2C_Mem_Read(&hi2c1, DS3231_ADDRESS, 0x01, 1, get_time, 6, 1000);
 	timeNow.minute = bcdToDec(get_time[0]);
 	timeNow.hour = bcdToDec(get_time[1]);
-	timeDigit.hourDigit1 = decToBcd((timeNow.hour/10));
-	timeDigit.hourDigit2 = decToBcd((timeNow.hour%10));
-	timeDigit.minuteDigit1 = decToBcd((timeNow.minute/10));
-	timeDigit.minuteDigit2 = decToBcd((timeNow.minute%10));
+	timeNow.dow = bcdToDec(get_time[2]);
+	timeNow.dom = bcdToDec(get_time[3]);
+	timeNow.month = bcdToDec(get_time[4]);
+	switch (timeComponent) {
+		case hour_n_minute: {
+			timeDigit.Digit1 = decToBcd((timeNow.hour/10));
+			timeDigit.Digit2 = decToBcd((timeNow.hour%10));
+			timeDigit.Digit3 = decToBcd((timeNow.minute/10));
+			timeDigit.Digit4 = decToBcd((timeNow.minute%10));
+			break;
+		}
+		case date_n_month: {
+			timeDigit.Digit1 = decToBcd((timeNow.dom/10));
+			timeDigit.Digit2 = decToBcd((timeNow.dom%10));
+			timeDigit.Digit3 = decToBcd((timeNow.month/10));
+			timeDigit.Digit4 = decToBcd((timeNow.month%10));
+			break;
+		}
+		case day_of_week: {
+			timeDigit.Digit1 = 0b1111;
+			timeDigit.Digit2 = 0b1111;
+			timeDigit.Digit3 = 0b1110;
+			timeDigit.Digit4 = decToBcd(timeNow.dow);
+			break;
+		}
+		default: break;
+	}
 }
 
 void Display_Time(void)
@@ -129,60 +167,60 @@ void Display_Time(void)
 	switch(digit){
 			case 1:
 				if(flag){
-				HAL_GPIO_WritePin(BIT_A3_GPIO_Port, BIT_A3_Pin, timeDigit.hourDigit1 & 0b0001);
-				HAL_GPIO_WritePin(BIT_A0_GPIO_Port, BIT_A0_Pin, timeDigit.hourDigit1 & 0b0010);
-				HAL_GPIO_WritePin(BIT_A1_GPIO_Port, BIT_A1_Pin, timeDigit.hourDigit1 & 0b0100);
-				HAL_GPIO_WritePin(BIT_A2_GPIO_Port, BIT_A2_Pin, timeDigit.hourDigit1 & 0b1000);
-				HAL_GPIO_WritePin(DIGIT_1_GPIO_Port, DIGIT_1_Pin, 1);
-				HAL_GPIO_WritePin(DIGIT_2_GPIO_Port, DIGIT_2_Pin, 0);
-				HAL_GPIO_WritePin(DIGIT_3_GPIO_Port, DIGIT_3_Pin, 0);
-				HAL_GPIO_WritePin(DIGIT_4_GPIO_Port, DIGIT_4_Pin, 0);
-				digit = 2;
-				flag = 0;
+					HAL_GPIO_WritePin(DIGIT_1_GPIO_Port, DIGIT_1_Pin, 1);
+					HAL_GPIO_WritePin(DIGIT_2_GPIO_Port, DIGIT_2_Pin, 0);
+					HAL_GPIO_WritePin(DIGIT_3_GPIO_Port, DIGIT_3_Pin, 0);
+					HAL_GPIO_WritePin(DIGIT_4_GPIO_Port, DIGIT_4_Pin, 0);
+					HAL_GPIO_WritePin(BIT_A3_GPIO_Port, BIT_A3_Pin, timeDigit.Digit1 & 0b0001);
+					HAL_GPIO_WritePin(BIT_A0_GPIO_Port, BIT_A0_Pin, timeDigit.Digit1 & 0b0010);
+					HAL_GPIO_WritePin(BIT_A1_GPIO_Port, BIT_A1_Pin, timeDigit.Digit1 & 0b0100);
+					HAL_GPIO_WritePin(BIT_A2_GPIO_Port, BIT_A2_Pin, timeDigit.Digit1 & 0b1000);
+					digit = 2;
+					flag = 0;
+				}
 				break;
-			}
 			case 2:
 				if(flag){
-				HAL_GPIO_WritePin(BIT_A3_GPIO_Port, BIT_A3_Pin, timeDigit.hourDigit2 & 0b0001);
-				HAL_GPIO_WritePin(BIT_A0_GPIO_Port, BIT_A0_Pin, timeDigit.hourDigit2 & 0b0010);
-				HAL_GPIO_WritePin(BIT_A1_GPIO_Port, BIT_A1_Pin, timeDigit.hourDigit2 & 0b0100);
-				HAL_GPIO_WritePin(BIT_A2_GPIO_Port, BIT_A2_Pin, timeDigit.hourDigit2 & 0b1000);
-				HAL_GPIO_WritePin(DIGIT_2_GPIO_Port, DIGIT_2_Pin, 1);
-				HAL_GPIO_WritePin(DIGIT_1_GPIO_Port, DIGIT_1_Pin, 0);
-				HAL_GPIO_WritePin(DIGIT_3_GPIO_Port, DIGIT_3_Pin, 0);
-				HAL_GPIO_WritePin(DIGIT_4_GPIO_Port, DIGIT_4_Pin, 0);
-				digit = 3;
-				flag = 0;
+					HAL_GPIO_WritePin(DIGIT_2_GPIO_Port, DIGIT_2_Pin, 1);
+					HAL_GPIO_WritePin(DIGIT_1_GPIO_Port, DIGIT_1_Pin, 0);
+					HAL_GPIO_WritePin(DIGIT_3_GPIO_Port, DIGIT_3_Pin, 0);
+					HAL_GPIO_WritePin(DIGIT_4_GPIO_Port, DIGIT_4_Pin, 0);
+					HAL_GPIO_WritePin(BIT_A3_GPIO_Port, BIT_A3_Pin, timeDigit.Digit2 & 0b0001);
+					HAL_GPIO_WritePin(BIT_A0_GPIO_Port, BIT_A0_Pin, timeDigit.Digit2 & 0b0010);
+					HAL_GPIO_WritePin(BIT_A1_GPIO_Port, BIT_A1_Pin, timeDigit.Digit2 & 0b0100);
+					HAL_GPIO_WritePin(BIT_A2_GPIO_Port, BIT_A2_Pin, timeDigit.Digit2 & 0b1000);
+					digit = 3;
+					flag = 0;
+				}
 				break;
-			}
 			case 3:
 				if(flag){
-				HAL_GPIO_WritePin(BIT_A3_GPIO_Port, BIT_A3_Pin, timeDigit.minuteDigit1 & 0b0001);
-				HAL_GPIO_WritePin(BIT_A0_GPIO_Port, BIT_A0_Pin, timeDigit.minuteDigit1 & 0b0010);
-				HAL_GPIO_WritePin(BIT_A1_GPIO_Port, BIT_A1_Pin, timeDigit.minuteDigit1 & 0b0100);
-				HAL_GPIO_WritePin(BIT_A2_GPIO_Port, BIT_A2_Pin, timeDigit.minuteDigit1 & 0b1000);
-				HAL_GPIO_WritePin(DIGIT_3_GPIO_Port, DIGIT_3_Pin, 1);
-				HAL_GPIO_WritePin(DIGIT_1_GPIO_Port, DIGIT_1_Pin, 0);
-				HAL_GPIO_WritePin(DIGIT_2_GPIO_Port, DIGIT_2_Pin, 0);
-				HAL_GPIO_WritePin(DIGIT_4_GPIO_Port, DIGIT_4_Pin, 0);
-				digit = 4;
-				flag = 0;
+					HAL_GPIO_WritePin(DIGIT_3_GPIO_Port, DIGIT_3_Pin, 1);
+					HAL_GPIO_WritePin(DIGIT_1_GPIO_Port, DIGIT_1_Pin, 0);
+					HAL_GPIO_WritePin(DIGIT_2_GPIO_Port, DIGIT_2_Pin, 0);
+					HAL_GPIO_WritePin(DIGIT_4_GPIO_Port, DIGIT_4_Pin, 0);
+					HAL_GPIO_WritePin(BIT_A3_GPIO_Port, BIT_A3_Pin, timeDigit.Digit3 & 0b0001);
+					HAL_GPIO_WritePin(BIT_A0_GPIO_Port, BIT_A0_Pin, timeDigit.Digit3 & 0b0010);
+					HAL_GPIO_WritePin(BIT_A1_GPIO_Port, BIT_A1_Pin, timeDigit.Digit3 & 0b0100);
+					HAL_GPIO_WritePin(BIT_A2_GPIO_Port, BIT_A2_Pin, timeDigit.Digit3 & 0b1000);
+					digit = 4;
+					flag = 0;
+				}
 				break;
-			}
 			case 4:
 				if(flag){
-				HAL_GPIO_WritePin(BIT_A3_GPIO_Port, BIT_A3_Pin, timeDigit.minuteDigit2 & 0b0001);
-				HAL_GPIO_WritePin(BIT_A0_GPIO_Port, BIT_A0_Pin, timeDigit.minuteDigit2 & 0b0010);
-				HAL_GPIO_WritePin(BIT_A1_GPIO_Port, BIT_A1_Pin, timeDigit.minuteDigit2 & 0b0100);
-				HAL_GPIO_WritePin(BIT_A2_GPIO_Port, BIT_A2_Pin, timeDigit.minuteDigit2 & 0b1000);
-				HAL_GPIO_WritePin(DIGIT_4_GPIO_Port, DIGIT_4_Pin, 1);
-				HAL_GPIO_WritePin(DIGIT_1_GPIO_Port, DIGIT_1_Pin, 0);
-				HAL_GPIO_WritePin(DIGIT_2_GPIO_Port, DIGIT_2_Pin, 0);
-				HAL_GPIO_WritePin(DIGIT_3_GPIO_Port, DIGIT_3_Pin, 0);
-				digit = 1;
-				flag = 0;
+					HAL_GPIO_WritePin(DIGIT_4_GPIO_Port, DIGIT_4_Pin, 1);
+					HAL_GPIO_WritePin(DIGIT_1_GPIO_Port, DIGIT_1_Pin, 0);
+					HAL_GPIO_WritePin(DIGIT_2_GPIO_Port, DIGIT_2_Pin, 0);
+					HAL_GPIO_WritePin(DIGIT_3_GPIO_Port, DIGIT_3_Pin, 0);
+					HAL_GPIO_WritePin(BIT_A3_GPIO_Port, BIT_A3_Pin, timeDigit.Digit4 & 0b0001);
+					HAL_GPIO_WritePin(BIT_A0_GPIO_Port, BIT_A0_Pin, timeDigit.Digit4 & 0b0010);
+					HAL_GPIO_WritePin(BIT_A1_GPIO_Port, BIT_A1_Pin, timeDigit.Digit4 & 0b0100);
+					HAL_GPIO_WritePin(BIT_A2_GPIO_Port, BIT_A2_Pin, timeDigit.Digit4 & 0b1000);
+					digit = 1;
+					flag = 0;
+				}
 				break;
-			}
 	}
 }
 /* USER CODE END 0 */
@@ -217,9 +255,11 @@ int main(void)
   MX_GPIO_Init();
   MX_I2C1_Init();
   MX_TIM3_Init();
+  MX_TIM14_Init();
   /* USER CODE BEGIN 2 */
-//  Set_Time(30, 17, 13, 2, 21, 11, 22);
+//  Set_Time(30, 35, 16, 7, 26, 11, 22);
   HAL_TIM_Base_Start_IT(&htim3);
+  HAL_TIM_Base_Start_IT(&htim14);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -343,7 +383,7 @@ static void MX_TIM3_Init(void)
 
   /* USER CODE END TIM3_Init 1 */
   htim3.Instance = TIM3;
-  htim3.Init.Prescaler = 40;
+  htim3.Init.Prescaler = 50;
   htim3.Init.CounterMode = TIM_COUNTERMODE_UP;
   htim3.Init.Period = 999;
   htim3.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
@@ -366,6 +406,37 @@ static void MX_TIM3_Init(void)
   /* USER CODE BEGIN TIM3_Init 2 */
 
   /* USER CODE END TIM3_Init 2 */
+
+}
+
+/**
+  * @brief TIM14 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM14_Init(void)
+{
+
+  /* USER CODE BEGIN TIM14_Init 0 */
+
+  /* USER CODE END TIM14_Init 0 */
+
+  /* USER CODE BEGIN TIM14_Init 1 */
+
+  /* USER CODE END TIM14_Init 1 */
+  htim14.Instance = TIM14;
+  htim14.Init.Prescaler = 4000;
+  htim14.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim14.Init.Period = 10000;
+  htim14.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim14.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim14) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM14_Init 2 */
+
+  /* USER CODE END TIM14_Init 2 */
 
 }
 
@@ -395,15 +466,22 @@ static void MX_GPIO_Init(void)
                           |DIGIT_1_Pin|DIGIT_2_Pin|DIGIT_3_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : DIGIT_4_Pin LED_LIFE_Pin */
-  GPIO_InitStruct.Pin = DIGIT_4_Pin|LED_LIFE_Pin;
+  /*Configure GPIO pin : DIGIT_4_Pin */
+  GPIO_InitStruct.Pin = DIGIT_4_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+  HAL_GPIO_Init(DIGIT_4_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : LED_LIFE_Pin */
+  GPIO_InitStruct.Pin = LED_LIFE_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+  HAL_GPIO_Init(LED_LIFE_GPIO_Port, &GPIO_InitStruct);
 
 }
 
