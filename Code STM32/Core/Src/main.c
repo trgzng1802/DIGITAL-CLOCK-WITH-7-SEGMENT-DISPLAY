@@ -154,7 +154,7 @@ void Get_Time (void)
 			timeDigit.Digit1 = 0b1111;
 			timeDigit.Digit2 = 0b1111;
 			timeDigit.Digit3 = 0b1110;
-			timeDigit.Digit4 = decToBcd(timeNow.dow);
+			timeDigit.Digit4 = (timeNow.dow == 1) ? 0b1000 : decToBcd(timeNow.dow);
 			break;
 		}
 		default: break;
@@ -383,11 +383,11 @@ static void MX_TIM3_Init(void)
 
   /* USER CODE END TIM3_Init 1 */
   htim3.Instance = TIM3;
-  htim3.Init.Prescaler = 50;
+  htim3.Init.Prescaler = 19;
   htim3.Init.CounterMode = TIM_COUNTERMODE_UP;
   htim3.Init.Period = 999;
   htim3.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
-  htim3.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_ENABLE;
+  htim3.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
   if (HAL_TIM_Base_Init(&htim3) != HAL_OK)
   {
     Error_Handler();
